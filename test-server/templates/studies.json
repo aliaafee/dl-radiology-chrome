@@ -1,0 +1,12 @@
+[
+    {
+        "serviceName": "CT Brain",
+        "studyUid": "uid-0001",
+        "studyDate": "1/1/2024 12:00:00"
+    },
+    {
+        "serviceName": "MRI Brain",
+        "studyUid": "uid-0002",
+        "studyDate": "2/1/2024 13:00:00"
+    }
+]

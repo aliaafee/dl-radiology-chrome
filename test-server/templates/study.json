@@ -1,0 +1,44 @@
+{
+    "studies": [
+        {
+            "StudyInstanceUID" : "0001",
+            "PatientName": "John Doe",
+            "series": [
+                {
+                    "SeriesDescription": "Series 1",
+                    "instances": [
+                        {
+                            "url": "http://127.0.0.1:5000/download?file=file1"
+                        },
+                        {
+                            "url": "http://127.0.0.1:5000/download?file=file2"
+                        },
+                        {
+                            "url": "http://127.0.0.1:5000/download?file=file3"
+                        },
+                        {
+                            "url": "http://127.0.0.1:5000/download?file=file4"
+                        }
+                    ]
+                },
+                {
+                    "SeriesDescription": "Series 2",
+                    "instances": [
+                        {
+                            "url": "http://127.0.0.1:5000/download?file=file5"
+                        },
+                        {
+                            "url": "http://127.0.0.1:5000/download?file=file6"
+                        },
+                        {
+                            "url": "http://127.0.0.1:5000/download?file=file7"
+                        },
+                        {
+                            "url": "http://127.0.0.1:5001/download?file=file8"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

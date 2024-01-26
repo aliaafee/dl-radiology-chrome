@@ -1,0 +1,74 @@
+body {
+    font: 13px arial,FreeSans,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    cursor:default;
+    overflow: hidden;
+    background-color: silver;
+}
+
+img.logo {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+h1 {
+    font-size: large;
+    margin: 0;
+    padding: 7px 5px 5px 43px;
+    font-weight: normal;
+    height: 25px;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+#progress-bar {
+    height: 25px;
+    border: solid 1px black;
+    display: block;
+    margin: 0px 10px 0px 10px;
+}
+
+#progress-completed {
+    display: block;
+    background-color: blue;
+    height: 100%;
+}
+
+#header {
+    padding: 10px;
+    overflow: hidden;
+}
+
+#status {
+    padding: 10px 10px 0 10px;
+    text-align: center;
+}
+
+#error {
+    padding: 0 10px 10px 10px;
+    text-align: center;
+    color: red;
+}
+
+#buttons {
+    display: flex;
+    padding: 0 10px 0 10px;
+    height: 25px;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    width: 100px;
+}
