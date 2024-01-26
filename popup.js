@@ -1,5 +1,5 @@
-const fileServerUrl = "http://127.0.0.1:5000";
-// const fileServerUrl = "http://10.10.10.197:4000";
+// const fileServerUrl = "http://127.0.0.1:5000";
+const fileServerUrl = "http://10.10.10.197:4000";
 const viewerUrl = "http://10.10.10.91:3000";
 
 const spinner = '<div class="spinner"><span></span></span>';
