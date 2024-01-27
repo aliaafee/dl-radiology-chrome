@@ -1,11 +1,12 @@
-# Download Radiology Studies
+<p align="center"><img src="images/dl-dicom.svg"/></p>
 
-Chrome extension to download radiology studies from EMR.
+<h2 align="center">Download Radiology Studies</h2>
+
+<p align="center">Chrome extension to download radiology studies from EMR.</p>
 
 ## Installation
 
-* Enable developer mode in extension. Got to Menu > Extensions > Manage Extensions. Turn the "Developer Mode" toggel located on the upper right corner to on.
-
-* Download the release zip file. [download](https://github.com/aliaafee/dl-radiology-chrome/releases/download/0.1/dl-radiology-chrome-0.1.zip)
-
+* Go to Extension page on chrome [chrome://extensions/](chrome://extensions/)
+* Enable developer mode, by turning on the toggle on the upper right corner
+* Download the release [dl-radiology-chrome-0.1.zip](https://github.com/aliaafee/dl-radiology-chrome/releases/download/0.1/dl-radiology-chrome-0.1.zip)
 * Drag and drop the zip file to the Extensions page.
