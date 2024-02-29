@@ -29,7 +29,8 @@ function getPatientId() {
 function getStudiesUrl(patientId) {
     const documentUrl = new URL(window.location.href);
 
-    return `${documentUrl.origin}/df/pcc/widgets/radiologyServices/${patientId}/100`;
+    return `${documentUrl.origin}/live/df/pcc/widgets/radiologyServices/${patientId}/max?encounterId=`
+    //return `${documentUrl.origin}/df/pcc/widgets/radiologyServices/${patientId}/100`;
 }
 
 async function getStudyList(url) {
